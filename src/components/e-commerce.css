@@ -542,7 +542,7 @@ a {
   align-items: center;
   justify-content: space-between;
   margin: 0 70px; /* Simplified margin */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .subsubscribe{
@@ -943,8 +943,8 @@ a {
 .imghov {
   max-width: 280px;
   position: absolute;
-  margin-top: 50px;
-  margin-left: 10px;
+  margin-top: 60px;
+  margin-left: 15px;
   z-index: 1;
   opacity: 1;
   visibility: visible;
@@ -967,11 +967,6 @@ a {
   border: 1px solid #eee;
   overflow: hidden;
 }
-.container2 .imgtoday {
-  max-width: 280px;
-  position: relative;
-  left: 15px;
-}
 .basket {
   position: absolute;
   margin-top: 90px;
@@ -990,10 +985,10 @@ a {
   font-size: 30px;
 }
 .container2 .imgtoday {
-  max-width: 270px;
+  max-width: 280px;
   margin-bottom: 50px;
   margin-top: 60px;
-  margin-left: 0px;
+  margin-left: 15px;
 }
 .todaybutton h4 {
   color: rgb(31, 31, 31);
@@ -1344,7 +1339,7 @@ a {
 /* itemz */
 .imghovv img {
   position: absolute;
-  top: 492px;
+  top: 189px;
 }
 .imghovv img:hover {
   visibility: hidden;
@@ -1353,7 +1348,7 @@ a {
 }
 .imghovv2 img {
   position: absolute;
-  top: 952px;
+  top: 649px;
 }
 .imghovv2 img:hover {
   visibility: hidden;
@@ -3781,6 +3776,7 @@ footer {
   cursor: pointer;
   overflow-x: hidden;
   padding: 20px; /* Add padding for better spacing */
+  margin-top: 100px;
 }
 
 .headset {
